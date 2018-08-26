@@ -8,3 +8,5 @@ exports.seed = function (knex, Promise) {
       return knex('sticker').insert(stickers)
     });
 };
+
+//Heroku test commit
